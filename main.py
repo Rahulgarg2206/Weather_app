@@ -55,16 +55,26 @@ class mainfunction:
             writeway(f"{Yellow}Temperature {Red}: {Cyan1}{temp_c}°C\n",0.01)
             writeway(f"{Yellow}Humidity {Red}: {Cyan1}{humidity}%\n",0.01)
             writeway(f"{Yellow}Wind Speed {Red}: {Cyan1}{wind_kph} kph\n",0.01)
+            
+            # Prompt user to continue or exit
+            choice = input("\nDo you want to check weather for another city? (yes/no): ")
+            if choice.lower() == "no":
+                return True  # Stop the application
+            else:
+                return False  # Continue the application
         else:
             print("City not found!")
-
-
-
+            return False  # Continue the application if city not found
 
 if __name__ == "__main__":
     logo.print_logo()
     print(f"{Cyan1}Welcome to the Weather App CLI!\n")
-    city = input(f"{Yellow}Enter the city name {Red}: {White}")
-    logo.print_logo()
-    weather_data = mainfunction.get_weather(city)
-    mainfunction.display_weather(weather_data)
+    
+    # Run the application until user chooses to exit
+    while True:
+        city = input(f"{Yellow}Enter the city name {Red}: {White}")
+        logo.print_logo()
+        weather_data = mainfunction.get_weather(city)
+        stop_application = mainfunction.display_weather(weather_data)
+        if stop_application:
+            break
