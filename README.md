@@ -44,20 +44,24 @@ To run the Weather App CLI, follow these steps:
 - **illusioncolor:** A Python library for adding colors to text in the command line interface.
 - **requests:** A Python library for making HTTP requests.
 
-### Contributing
-
-Contributions to the Weather App CLI are welcome! If you'd like to contribute, please follow these guidelines:
-
-1. Fork the repository and create your branch (`git checkout -b feature/your-feature`).
-2. Commit your changes (`git commit -am 'Add your feature'`).
-3. Push to the branch (`git push origin feature/your-feature`).
-4. Open a pull request.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgements
 
 - This Weather App CLI was created by Rahul Garg.
 - Special thanks to the creators of illusionanime and illusioncolor libraries for enhancing the CLI experience.
+
+## Screenshots
+
+<img src="Screenshot.png"></img>
+
+## [+] Find Me On :
+
+[![Github](https://img.shields.io/badge/Instagram-Rahul-pink?style=for-the-badge&logo=instagram)](https://www.instagram.com/rahulgarg__09?igsh=MTh5ZnNmMnRicGw5dg==)
+[![Github](https://img.shields.io/badge/TELEGRAM-Rahul-blue?style=for-the-badge&logo=telegram)](https://t.me/cyberrj09)
+
+
+## Visiter
+<img src="https://profile-counter.glitch.me/rahulgarg2206/count.svg" alt="Visitors">
+
+
+
